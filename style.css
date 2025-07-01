@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins','sans-serif';
+    /* box-sizing: border-box; */
+}
+body{
+   height: 100vh;
+   background-image: url(bg.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+h1{
+   color: #ffffff;
+   text-align: center;
+   padding: 30px;
+}
+.container{
+   position: relative;
+   top: 30%;
+}
+.container ul{
+  display: flex;
+  
+    list-style: none;
+   justify-content:center;
+   flex-wrap: wrap;
+   align-content: flex-start;
+    gap: 30px;
+}
+.container li a{
+   color: #ffffff;
+   font-size: 1.4rem;
+   text-decoration: none;
+   padding: 20px;
+}
+.container li {
+   text-decoration: none;
+}
+.container li a:hover{
+    font-size: 29px;
+    background-color: rgb(41, 168, 126);
+    border-radius: 40px;
+}
+/* #Tamal */
